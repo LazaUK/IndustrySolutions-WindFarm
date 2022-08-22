@@ -1,0 +1,15 @@
+{
+  "@id": "dtmi:laziz:WindFarm;1",
+  "@type": "Interface",
+  "displayName": "Wind Farm",
+  "contents": [
+    {
+      "@type": "Relationship",
+      "name": "contains",
+      "displayName": "contains",
+      "description": "Wind turbines deployed in this wind farm",
+      "target": "dtmi:laziz:WindTurbine;1"
+    }    
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}
