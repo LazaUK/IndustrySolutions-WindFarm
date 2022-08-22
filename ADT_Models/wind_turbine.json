@@ -1,0 +1,23 @@
+{
+  "@id": "dtmi:laziz:WindTurbine;1",
+  "@type": "Interface",
+  "displayName": "Wind Turbine",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "Name",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "Temperature",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "Humidity",
+      "schema": "double"
+    }    
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}
