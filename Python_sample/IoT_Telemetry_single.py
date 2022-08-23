@@ -4,7 +4,7 @@ from azure.iot.device.aio import IoTHubDeviceClient
 
 async def main():
     # Fetch the connection string from an enviornment variable
-    conn_str = "HostName=iotHubWindFarm.azure-devices.net;DeviceId=lazizSimulator;SharedAccessKey=rtSo1imlttwffxnBA3NQE7aQ/peXmDVb2FnZFPacPuo="
+    conn_str = "<ADD_YOUR_CONNECTION_STRING>"
 
     # Create instance of the device client using the authentication provider
     device_client = IoTHubDeviceClient.create_from_connection_string(conn_str)
