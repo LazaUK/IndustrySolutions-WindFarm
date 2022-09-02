@@ -37,17 +37,18 @@ namespace IotHubtoTwins
                 {
                     log.LogInformation(eventGridEvent.Data.ToString());
 
-                    // <Find_device_ID_and_temperature>
+                    // <Find_device_ID_temperature_and_humidity>
                     JObject deviceMessage = (JObject)JsonConvert.DeserializeObject(eventGridEvent.Data.ToString());
                     string deviceId = (string)deviceMessage["systemProperties"]["iothub-connection-device-id"];
-                    var temperature = deviceMessage["body"]["generator_temperature"];
-                    // </Find_device_ID_and_temperature>
-
-                    log.LogInformation($"Device:{deviceId} Temperature is:{temperature}");
+                    var temperature = deviceMessage["body"]["decoded"]["payload"]["generator_temperature"];
+                    log.LogInformation($"Device:{deviceId} Temperature is: {temperature}");
+                    var humidity = deviceMessage["body"]["decoded"]["payload"]["generator_humidity"];
+                    log.LogInformation($"Device:{deviceId} Humidity is: {humidity}");
 
                     // <Update_twin_with_device_temperature>
                     var updateTwinData = new JsonPatchDocument();
                     updateTwinData.AppendReplace("/Temperature", temperature.Value<double>());
+					updateTwinData.AppendReplace("/Humidity", humidity.Value<double>());
                     await client.UpdateDigitalTwinAsync(deviceId, updateTwinData);
                     // </Update_twin_with_device_temperature>
                 }
