@@ -3,6 +3,15 @@ Wind farms are great contributors to our sustainability agenda as generators of 
 
 In this repo, you will find a detailed step-by-step guide on how to enable ingestion of remote telemetry in Azure, update of wind farm's Azure digital twin (ADT) and real-time health monitoring in ADT's 3D scene.
 
+## Table of contents:
+- [Step 1 - Setup Azure Digital Twins](https://github.com/LazaUK/IndustrySolutions-WindFarm#step-1---setup-azure-digital-twins)
+- [Step 2 - Setup Azure IoT Hub](https://github.com/LazaUK/IndustrySolutions-WindFarm#step-2---setup-azure-iot-hub)
+- [Step 3 - Deploy Azure Function](https://github.com/LazaUK/IndustrySolutions-WindFarm#step-3---deploy-azure-function)
+- [Step 4 - Generate mock telemetry with a Python simulator](https://github.com/LazaUK/IndustrySolutions-WindFarm#step-4---generate-mock-telemetry-with-a-python-simulator)
+- [Step 5 - Generate real-time telemetry with a Seeed Studio LoRaWAN Dev Kit](https://github.com/LazaUK/IndustrySolutions-WindFarm#step-5---generate-real-time-telemetry-with-a-seeed-studio-lorawan-dev-kit)
+- [Appendix A: High-level system design](https://github.com/LazaUK/IndustrySolutions-WindFarm#appendix-a-high-level-system-design)
+- [Appendix B: Working model - YouTube video](https://github.com/LazaUK/IndustrySolutions-WindFarm#appendix-b-working-model---youtube-video)
+
 ## Step 1 - Setup Azure Digital Twins
 1. In [Azure portal](https://portal.azure.com) provision new instance of **Azure Digital Twins** (ADT);
 2. Create new **Azure Storage** account and enable access to it from ADT with the following AZ command:
