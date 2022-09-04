@@ -10,4 +10,4 @@ In this repo, you will find a detailed step-by-step guide on how to enable inges
 az storage cors add --services b --methods GET OPTIONS POST PUT --origins https://explorer.digitaltwins.azure.net --allowed-headers Authorization x-ms-version x-ms-blob-type --account-name <YOUR_STORAGE_ACCOUNT>
 ```
 
-8. Now from the left navigation bar select **JSON Editor**, then replace schema definition on the right with content from Git-attached **alexaskill-nodejs/model.json** file. ![screenshot_1.8](images/screenshot_step1.8.png)
+8. Now from the left navigation bar select **JSON Editor**, then replace schema definition on the right with content from Git-attached **alexaskill-nodejs/model.json** file. ![screenshot_1.1](images/Screenshot1_1.png)
