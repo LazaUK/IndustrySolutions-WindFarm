@@ -25,8 +25,10 @@ az storage cors add --services b --methods GET OPTIONS POST PUT --origins https:
 
 ## Step 2 - Setup Azure IoT Hub
 1. In [Azure portal](https://portal.azure.com) provision new instance of **Azure IoT Hub**;
-2. If you plan to use Python simulator (Step 5 below), you need to register your IoT device and copy its Connection String as shown below:
+2. If you plan to use Python simulator (Step 5 below), you need to register your IoT device and copy one of its Connection String as shown below:
 ![screenshot_2.1](images/Screenshot2_1.png)
+3. If you plan to use Seeed Studio's LoRaWAN Dev Kit (Step 6 below), you need to create a new **Shared Access Policy** with "Registry Read", "Registry Write" and "Device Connect" permissions and then copy one of its keys as shown below
+![screenshot_2.2](images/Screenshot2_2.png)
 
 ## Step 3 - Deploy Azure Function
 ## Step 4 - Configure ADT 3D scene
