@@ -20,9 +20,14 @@ In this repo, you will find a detailed step-by-step guide on how to enable inges
 ```
 az storage cors add --services b --methods GET OPTIONS POST PUT --origins https://explorer.digitaltwins.azure.net --allowed-headers Authorization x-ms-version x-ms-blob-type --account-name <YOUR_STORAGE_ACCOUNT>
 ```
-3. Use provided JSON models from *ADT_Models* folder to setup relevant *Organisation -> Wind Farm -> Win Turbine* hierarchy, similar to what is shown on the screenhot below. ![screenshot_1.1](images/Screenshot1_1.png)
+3. Use provided JSON models from *ADT_Models* folder to setup relevant *Organisation -> Wind Farm -> Win Turbine* hierarchy, similar to what is shown on the screenhot below.
+![screenshot_1.1](images/Screenshot1_1.png)
 
 ## Step 2 - Setup Azure IoT Hub
+1. In [Azure portal](https://portal.azure.com) provision new instance of **Azure IoT Hub**;
+2a. If you plan to use Python simulator (Step 5 below), you need to register your IoT device and copy its Connection String as shown below:
+![screenshot_2.1](images/Screenshot2_1.png)
+
 ## Step 3 - Deploy Azure Function
 ## Step 4 - Configure ADT 3D scene
 ## Step 5 - Generate mock telemetry with a Python simulator
