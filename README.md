@@ -25,7 +25,7 @@ az storage cors add --services b --methods GET OPTIONS POST PUT --origins https:
 
 ## Step 2 - Setup Azure IoT Hub
 1. In [Azure portal](https://portal.azure.com) provision new instance of **Azure IoT Hub**;
-2a. If you plan to use Python simulator (Step 5 below), you need to register your IoT device and copy its Connection String as shown below:
+2. If you plan to use Python simulator (Step 5 below), you need to register your IoT device and copy its Connection String as shown below:
 ![screenshot_2.1](images/Screenshot2_1.png)
 
 ## Step 3 - Deploy Azure Function
