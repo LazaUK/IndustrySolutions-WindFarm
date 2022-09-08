@@ -35,7 +35,7 @@ az storage cors add --services b --methods GET OPTIONS POST PUT --origins https:
 1. Create a new **Azure Function** in your IDE of choice. Next sub-steps assume that you are using provided C# sample;
 2. Ensure that your Azure Function is of an Azure Event Trigger type;
 3. Create ADT_SERVICE_URL variable that points to your ADT instance;
-
+> **Note:** Use of the provided C# sample requires installation of "Azure.DigitalTwins.Core", "Azure.Identity" and "Microsoft.Azure.WebJobs.Extensions.EventGrid" packages.
 
 ## Step 4 - Configure ADT 3D scene
 ## Step 5 - Generate mock telemetry with a Python simulator
