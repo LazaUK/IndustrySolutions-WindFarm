@@ -27,11 +27,16 @@ az storage cors add --services b --methods GET OPTIONS POST PUT --origins https:
 1. In [Azure portal](https://portal.azure.com) provision new instance of **Azure IoT Hub**;
 2. If you plan to use Python simulator (Step 5 below), you need to register your IoT device and copy one of its Connection String as shown below:
 ![screenshot_2.1](images/Screenshot2_1.png)
-3. If you plan to use Seeed Studio's LoRaWAN Dev Kit (Step 6 below), you need to create a new **Shared Access Policy** with "Registry Read", "Registry Write" and "Device Connect" permissions and then copy one of its keys as shown below
+3. If you plan to use Seeed Studio's LoRaWAN Dev Kit (Step 6 below), you need to create a new **Shared Access Policy** with "Registry Read", "Registry Write" and "Device Connect" permissions and then copy one of its keys as shown below:
 ![screenshot_2.2](images/Screenshot2_2.png)
 > **Note:** Once you register your Seeed device with the Helium network, Shared Access Policy's key from the Step 2.3 above will be used to auto-register your device with the Azure IoT Hub.
 
 ## Step 3 - Deploy Azure Function
+1. Create a new **Azure Function** in your IDE of choice. Next sub-steps assume that you are using provided C# sample;
+2. Ensure that your Azure Function is of an Azure Event Trigger type;
+3. Create ADT_SERVICE_URL variable that points to your ADT instance;
+
+
 ## Step 4 - Configure ADT 3D scene
 ## Step 5 - Generate mock telemetry with a Python simulator
 ## Step 6 - Generate real-time telemetry with a Seeed Studio's LoRaWAN Dev Kit
