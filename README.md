@@ -43,8 +43,10 @@ az storage cors add --services b --methods GET OPTIONS POST PUT --origins https:
 ## Step 4 - Configure ADT 3D scene
 1. Open [3D Studio](https://explorer.digitaltwins.azure.net/3dscenes/) and configure 3D scenes environment by linking your ADT instance and Storage account from Step 1:
 ![screenshot_4.1](images/Screenshot4_1.png)
-2. Create your first 3D scene by uploading 3D file and proving meaningful description:
+2. Create your first 3D scene by uploading 3D model and proving meaningful description:
 ![screenshot_4.2](images/Screenshot4_2.png)
+3. Use meshes from your 3D model to add required elements to 3D scene:
+![screenshot_4.3](images/Screenshot4_3.png)
 
 ## Step 5 - Generate mock telemetry with a Python simulator
 ## Step 6 - Generate real-time telemetry with a Seeed Studio's LoRaWAN Dev Kit
