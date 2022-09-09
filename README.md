@@ -47,6 +47,8 @@ az storage cors add --services b --methods GET OPTIONS POST PUT --origins https:
 ![screenshot_4.2](images/Screenshot4_2.png)
 3. Use meshes from your 3D model to add required elements to 3D scene:
 ![screenshot_4.3](images/Screenshot4_3.png)
+4. Configure and assign relevant behaviour to your 3D elements from the earlier steps. Behaviour can enable *Status*, *Alerts* or *Windgets" functionality as shown below: 
+![screenshot_4.4](images/Screenshot4_4.png)
 
 ## Step 5 - Generate mock telemetry with a Python simulator
 ## Step 6 - Generate real-time telemetry with a Seeed Studio's LoRaWAN Dev Kit
