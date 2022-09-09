@@ -41,6 +41,10 @@ az storage cors add --services b --methods GET OPTIONS POST PUT --origins https:
 > **Note:** Use of the provided C# sample requires installation of "Azure.DigitalTwins.Core", "Azure.Identity" and "Microsoft.Azure.WebJobs.Extensions.EventGrid" packages.
 
 ## Step 4 - Configure ADT 3D scene
+1. Open [3D Studio](https://explorer.digitaltwins.azure.net/3dscenes/) and configure 3D scene by linking your ADT instance and Storage account from Step 1;
+![screenshot_4.1](images/Screenshot4_1.png)
+2. 
+
 ## Step 5 - Generate mock telemetry with a Python simulator
 ## Step 6 - Generate real-time telemetry with a Seeed Studio's LoRaWAN Dev Kit
 ## Appendix A: High-level system design
