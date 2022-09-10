@@ -51,6 +51,12 @@ az storage cors add --services b --methods GET OPTIONS POST PUT --origins https:
 ![screenshot_4.4](images/Screenshot4_4.png)
 
 ## Step 5 - Generate mock telemetry with a Python simulator
+1. Provided Python sample code shows how to establish connectivity with IoT Hub and submit your message. You can enhance it to the specifics of your data payload;
+2. The Azure IoT Device SDK for Python
+```
+pip install azure-iot-device
+```
+
 ## Step 6 - Generate real-time telemetry with a Seeed Studio's LoRaWAN Dev Kit
 ## Appendix A: High-level system design
 ## Appendix B: Working model - YouTube video
