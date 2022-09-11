@@ -62,3 +62,4 @@ pip install azure-iot-device
 ## Step 6 - Generate real-time telemetry with a Seeed Studio's LoRaWAN Dev Kit
 ## Appendix A: High-level system design
 ## Appendix B: Working model - YouTube video
+Demo of the end-to-end solution can be found here: **<PLACEHOLDER_YOUTUBE_VIDEO>**
