@@ -63,7 +63,8 @@ pip install azure-iot-device
 1. If you are using Seed Studio's LoRaWAN Dev Kit, you can follow this [Device Registration guide from the Seeed Wiki](https://wiki.seeedstudio.com/Connecting-to-Helium/#adding-grove-wio-e5-devices-to-the-helium-console) to register your kit with the Helium platform. If successful, you should get it listed under the Devices section:
 ![screenshot_6.1](images/Screenshot6_1.png)
 2. Next follow this [IoT Hub Registration guide from the Seeed Wiki](https://wiki.seeedstudio.com/Integrate-into-Azure-IoT-Hub/#integration-to-helium) to register your Azure IoT Hub. You will re-use here Shared Access Policy key from Step 2.3;
-3. ![screenshot_6.2](images/Screenshot6_2.png)
+![screenshot_6.2](images/Screenshot6_2.png)
+3. 
 
 ## Appendix A: High-level system design
 ## Appendix B: Working model - YouTube video
