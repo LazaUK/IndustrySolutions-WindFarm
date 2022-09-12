@@ -60,6 +60,9 @@ pip install azure-iot-device
 ![screenshot_5.1](images/Screenshot5_1.png)
 
 ## Step 6 - Generate real-time telemetry with a Seeed Studio's LoRaWAN Dev Kit
+1. If you are using Seed Studio's LoRaWAN Dev Kit, you can follow this [guide from the Seeed Wiki](https://wiki.seeedstudio.com/Connecting-to-Helium/#upload-code-send-data-to-helium) to register your kit with the Helium platform. If successful, you should get it listed under Devices section:
+![screenshot_6.1](images/Screenshot6_1.png)
+
 ## Appendix A: High-level system design
 ## Appendix B: Working model - YouTube video
 Demo of the end-to-end solution can be found here: **<PLACEHOLDER_YOUTUBE_VIDEO>**
