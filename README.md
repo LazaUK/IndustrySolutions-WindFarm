@@ -66,7 +66,9 @@ pip install azure-iot-device
 ![screenshot_6.2](images/Screenshot6_2.png)
 3. Telemetry received by the Helium platform needs to be decoded before its transfer to IoT Hub. Create new "custom" function as shown below. You can adapt provided Helium function (that decodes temperature and humidity readings) to the specifics of your telemetry;
 ![screenshot_6.3](images/Screenshot6_3.png)
-4. 
+4. Now use the Flows section to link our Device, Function and IoT Hub nodes as shown below:
+
+5. 
 
 ## Appendix A: High-level system design
 ## Appendix B: Working model - YouTube video
