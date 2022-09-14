@@ -64,8 +64,9 @@ pip install azure-iot-device
 ![screenshot_6.1](images/Screenshot6_1.png)
 2. Next follow this [IoT Hub Registration guide from the Seeed Wiki](https://wiki.seeedstudio.com/Integrate-into-Azure-IoT-Hub/#integration-to-helium) to register your Azure IoT Hub. You will re-use here Shared Access Policy key from Step 2.3;
 ![screenshot_6.2](images/Screenshot6_2.png)
-3. Telemetry received by the Helium platform needs to be decoded before its transfer to IoT Hub. Create new "custom" function as shown below. You can adapt provided Helium function to the specifics of your telemetry;
+3. Telemetry received by the Helium platform needs to be decoded before its transfer to IoT Hub. Create new "custom" function as shown below. You can adapt provided Helium function (that decodes temperature and humidity readings) to the specifics of your telemetry;
 ![screenshot_6.3](images/Screenshot6_3.png)
+4. 
 
 ## Appendix A: High-level system design
 ## Appendix B: Working model - YouTube video
