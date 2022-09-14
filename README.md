@@ -70,7 +70,7 @@ pip install azure-iot-device
 4. Next, use the Flows section to link our Device, Function and IoT Hub nodes as shown below:
 ![screenshot_6.4](images/Screenshot6_4.png)
 5. 
-![screenshot_6.5a](images/Screenshot6_5a.png)
+![screenshot_6.5](images/Screenshot6_5.png)
 
 ## Appendix A: High-level system design
 ## Appendix B: Working model - YouTube video
