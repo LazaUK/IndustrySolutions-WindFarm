@@ -73,7 +73,7 @@ pip install azure-iot-device
 ![screenshot_6.5](images/Screenshot6_5.png)
 6. If correctly setup, you should be able to see in Arduino IDE's Serial Monitor that your telemetry values are successfully submitted to the LoRaWAN network;
 ![screenshot_6.6](images/Screenshot6_6.png)
-7.
+7. Debugging mode of the Helium console can help you verify that decoded telemetry values are routed up to the Azure IoT Hub;
 ![screenshot_6.7](images/Screenshot6_7.png)
 
 ## Appendix A: High-level system design
