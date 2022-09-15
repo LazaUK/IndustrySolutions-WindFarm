@@ -71,8 +71,9 @@ pip install azure-iot-device
 ![screenshot_6.4](images/Screenshot6_4.png)
 5. Provided Arduino sample can send temperature and humidity telemetry from the Grove SHT40 digital sensor. Don't forget to set frequency band in row 12 to the value specific for your geography. You will also re-use Dev EUI, App EUI and App Key from the earlier Step 6.1;
 ![screenshot_6.5](images/Screenshot6_5.png)
-6.
+6. If correctly setup, you should be able to see in Arduino IDE's Serial Monitor that your telemetry values are successfully submitted to LoRaWAN network;
 ![screenshot_6.6](images/Screenshot6_6.png)
+
 
 ## Appendix A: High-level system design
 ## Appendix B: Working model - YouTube video
