@@ -20,7 +20,7 @@ In this repo, you will find a detailed step-by-step guide on how to enable inges
 ```
 az storage cors add --services b --methods GET OPTIONS POST PUT --origins https://explorer.digitaltwins.azure.net --allowed-headers Authorization x-ms-version x-ms-blob-type --account-name <YOUR_STORAGE_ACCOUNT>
 ```
-3. Use provided JSON models from *ADT_Models* folder to setup relevant *Organisation -> Wind Farm -> Win Turbine* hierarchy, similar to what is shown on the screenhot below.
+3. Use provided JSON models from *ADT_Models* folder to setup relevant *Organisation -> Wind Farm -> Win Turbine* hierarchy, similar to what is shown on the screenshot below.
 ![screenshot_1.1](images/Screenshot1_1.png)
 
 ## Step 2 - Setup Azure IoT Hub
@@ -47,7 +47,7 @@ az storage cors add --services b --methods GET OPTIONS POST PUT --origins https:
 ![screenshot_4.2](images/Screenshot4_2.png)
 3. Use meshes from your 3D model to add required elements to 3D scene:
 ![screenshot_4.3](images/Screenshot4_3.png)
-4. Configure and assign relevant behaviour to your 3D elements from the earlier steps. Behaviour can enable *Status*, *Alerts* or *Windgets" functionality as shown below: 
+4. Configure and assign relevant behaviour to your 3D elements from the earlier steps. Behaviour can enable *Status*, *Alerts* or *Widgets" functionality as shown below: 
 ![screenshot_4.4](images/Screenshot4_4.png)
 
 ## Step 5 - Generate mock telemetry with a Python simulator
