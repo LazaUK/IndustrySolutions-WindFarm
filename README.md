@@ -20,7 +20,7 @@ In this repo, you will find a detailed step-by-step guide on how to enable inges
 ```
 az storage cors add --services b --methods GET OPTIONS POST PUT --origins https://explorer.digitaltwins.azure.net --allowed-headers Authorization x-ms-version x-ms-blob-type --account-name <YOUR_STORAGE_ACCOUNT>
 ```
-3. Use provided JSON models from *ADT_Models* folder to setup relevant *Organisation -> Wind Farm -> Win Turbine* hierarchy, similar to what is shown on the screenshot below.
+3. Use provided JSON models from *ADT_Models* folder to setup relevant *Organisation -> Wind Farm -> Win Turbine* hierarchy, similar to what is shown on the screenshot below:
 ![screenshot_1.1](images/Screenshot1_1.png)
 
 ## Step 2 - Setup Azure IoT Hub
@@ -56,16 +56,16 @@ az storage cors add --services b --methods GET OPTIONS POST PUT --origins https:
 ```
 pip install azure-iot-device
 ```
-3. In row 7, replace placeholder with Connection String from Step 2.2.
+3. In row 7, replace placeholder with Connection String from Step 2.2:
 ![screenshot_5.1](images/Screenshot5_1.png)
 
 ## Step 6 - Generate real-time telemetry with a Seeed Studio's LoRaWAN Dev Kit
 1. If you are using Seed Studio's LoRaWAN Dev Kit, you can follow this [Device Registration guide from the Seeed Wiki](https://wiki.seeedstudio.com/Connecting-to-Helium/#adding-grove-wio-e5-devices-to-the-helium-console) to register your kit with the Helium platform. If successful, you should get it listed under the Devices section:
 ![screenshot_6.1](images/Screenshot6_1.png)
 > **Note:** Please, make a note of Dev EUI, App EUI and App Key as you will re-use them later in Step 6.5 below;
-2. Next follow this [IoT Hub Registration guide from the Seeed Wiki](https://wiki.seeedstudio.com/Integrate-into-Azure-IoT-Hub/#integration-to-helium) to register your Azure IoT Hub. You will re-use here Shared Access Policy key from Step 2.3;
+2. Next follow this [IoT Hub Registration guide from the Seeed Wiki](https://wiki.seeedstudio.com/Integrate-into-Azure-IoT-Hub/#integration-to-helium) to register your Azure IoT Hub. You will re-use here Shared Access Policy key from Step 2.3:
 ![screenshot_6.2](images/Screenshot6_2.png)
-3. Telemetry received by the Helium platform needs to be decoded before its transfer to IoT Hub. Create new "custom" function as shown below. You can adapt provided Helium function (that decodes temperature and humidity readings) to the specifics of your telemetry;
+3. Telemetry received by the Helium platform needs to be decoded before its transfer to IoT Hub. Create new "custom" function as shown below. You can adapt provided Helium function (that decodes temperature and humidity readings) to the specifics of your telemetry:
 ![screenshot_6.3](images/Screenshot6_3.png)
 4. Next, use the Flows section to link our Device, Function and IoT Hub nodes as shown below:
 ![screenshot_6.4](images/Screenshot6_4.png)
