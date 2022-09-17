@@ -77,5 +77,7 @@ pip install azure-iot-device
 ![screenshot_6.7](images/Screenshot6_7.png)
 
 ## Appendix A: High-level system design
+![screenshot_appendixA](images/Screenshot_AppA.png)
+
 ## Appendix B: Working model - YouTube video
 Demo of the end-to-end solution can be found here: **<PLACEHOLDER_YOUTUBE_VIDEO>**
