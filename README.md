@@ -79,8 +79,9 @@ pip install azure-iot-device
 ![screenshot_6.8](images/Screenshot6_8.png)
 9. Telemetry values will be updated in Azure Digital Twins:
 ![screenshot_6.9](images/Screenshot6_9.png)
-10. And, eventually, reflected in 3D scene:
+10. And, eventually, reflected in ADT's 3D scene:
 ![screenshot_6.10](images/Screenshot6_10.png)
+11. With this, you can verify end to end connectivity between physical device and its 3D digital twin.
 
 ## Appendix A: High-level system design
 ![screenshot_appendixA](images/Screenshot_AppA.png)
