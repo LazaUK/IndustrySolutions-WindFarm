@@ -78,6 +78,7 @@ pip install azure-iot-device
 8. Azure IoT Explorer can be used to monitor ingested device telemetry in real time;
 ![screenshot_6.8](images/Screenshot6_8.png)
 9. Telemetry values will be updated in Azure Digital Twins:
+![screenshot_6.9](images/Screenshot6_9.png)
 
 ## Appendix A: High-level system design
 ![screenshot_appendixA](images/Screenshot_AppA.png)
