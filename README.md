@@ -76,7 +76,7 @@ pip install azure-iot-device
 7. Debugging mode of the Helium console can help you verify that decoded telemetry values are re-routed further up to the Azure IoT Hub;
 ![screenshot_6.7](images/Screenshot6_7.png)
 8. Azure IoT Explorer can be used to monitor ingested device telemetry in real time;
-
+![screenshot_6.8](images/Screenshot6_8.png)
 
 ## Appendix A: High-level system design
 ![screenshot_appendixA](images/Screenshot_AppA.png)
