@@ -80,7 +80,7 @@ pip install azure-iot-device
 9. Telemetry values will be updated in Azure Digital Twins:
 ![screenshot_6.9](images/Screenshot6_9.png)
 10. And, eventually, reflected in 3D scene:
-
+![screenshot_6.10](images/Screenshot6_10.png)
 
 ## Appendix A: High-level system design
 ![screenshot_appendixA](images/Screenshot_AppA.png)
