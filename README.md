@@ -69,16 +69,18 @@ pip install azure-iot-device
 ![screenshot_6.3](images/Screenshot6_3.png)
 4. Next, use the Flows section to link our Device, Function and IoT Hub nodes as shown below:
 ![screenshot_6.4](images/Screenshot6_4.png)
-5. Provided Arduino sample can send temperature and humidity telemetry from the Grove SHT40 digital sensor. Don't forget to set frequency band in row 12 to the value specific for your geography. You will also re-use Dev EUI, App EUI and App Key from the earlier Step 6.1;
+5. Provided Arduino sample can send temperature and humidity telemetry from the Grove SHT40 digital sensor. Don't forget to set frequency band in row 12 to the value specific for your geography. You will also re-use Dev EUI, App EUI and App Key from the earlier Step 6.1:
 ![screenshot_6.5](images/Screenshot6_5.png)
-6. If correctly setup, you should be able to see in Arduino IDE's Serial Monitor that your telemetry values are successfully submitted to the LoRaWAN network;
+6. If correctly setup, you should be able to see in Arduino IDE's Serial Monitor that your telemetry values are successfully submitted to the LoRaWAN network:
 ![screenshot_6.6](images/Screenshot6_6.png)
-7. Debugging mode of the Helium console can help you verify that decoded telemetry values are re-routed further up to the Azure IoT Hub;
+7. Debugging mode of the Helium console can help you verify that decoded telemetry values are re-routed further up to the Azure IoT Hub:
 ![screenshot_6.7](images/Screenshot6_7.png)
-8. Azure IoT Explorer can be used to monitor ingested device telemetry in real time;
+8. Azure IoT Explorer can be used to monitor ingested device telemetry in real time:
 ![screenshot_6.8](images/Screenshot6_8.png)
 9. Telemetry values will be updated in Azure Digital Twins:
 ![screenshot_6.9](images/Screenshot6_9.png)
+10. And, eventually, reflected in 3D scene:
+
 
 ## Appendix A: High-level system design
 ![screenshot_appendixA](images/Screenshot_AppA.png)
