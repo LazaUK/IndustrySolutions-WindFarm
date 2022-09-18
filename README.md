@@ -81,7 +81,7 @@ pip install azure-iot-device
 ![screenshot_6.9](images/Screenshot6_9.png)
 10. And, eventually, reflected in ADT's 3D scene:
 ![screenshot_6.10](images/Screenshot6_10.png)
-11. With this, you can verify end to end connectivity between physical device and its 3D digital twin.
+With this, you can verify end to end connectivity between physical device and its 3D digital twin's state.
 
 ## Appendix A: High-level system design
 ![screenshot_appendixA](images/Screenshot_AppA.png)
