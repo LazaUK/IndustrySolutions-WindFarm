@@ -87,4 +87,4 @@ With this, you can verify end to end connectivity between physical device and it
 ![screenshot_appendixA](images/Screenshot_AppA.png)
 
 ## Appendix B: Working model - YouTube video
-Demo of the end-to-end solution can be found here: **<PLACEHOLDER_YOUTUBE_VIDEO>**
+Demo of the end-to-end solution can be found here: https://youtu.be/3WVoBSM-qLo
