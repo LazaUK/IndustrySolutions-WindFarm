@@ -60,7 +60,7 @@ pip install azure-iot-device
 ![screenshot_5.1](images/Screenshot5_1.png)
 
 ## Step 6 - Generate real-time telemetry with a Seeed Studio's LoRaWAN Dev Kit
-1. If you are using Seed Studio's LoRaWAN Dev Kit, you can follow this [Device Registration guide from the Seeed Wiki](https://wiki.seeedstudio.com/Connecting-to-Helium/#adding-grove-wio-e5-devices-to-the-helium-console) to register your kit with the Helium platform. If successful, you should get it listed under the Devices section:
+1. If you are using Seed Studio's LoRaWAN Dev Kit (SenseCap-K1100), you can follow this [Device Registration guide from the Seeed Wiki](https://wiki.seeedstudio.com/Connecting-to-Helium/#adding-grove-wio-e5-devices-to-the-helium-console) to register your kit with the Helium platform. If successful, you should get it listed under the Devices section:
 ![screenshot_6.1](images/Screenshot6_1.png)
 > **Note:** Please, make a note of Dev EUI, App EUI and App Key as you will re-use them later in Step 6.5 below;
 2. Next follow this [IoT Hub Registration guide from the Seeed Wiki](https://wiki.seeedstudio.com/Integrate-into-Azure-IoT-Hub/#integration-to-helium) to register your Azure IoT Hub. You will re-use here Shared Access Policy key from Step 2.3:
